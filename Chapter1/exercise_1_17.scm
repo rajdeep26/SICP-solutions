@@ -7,7 +7,4 @@
       (+ a 
         (double (fast-multiply a (halve (- b 1))))))))
 
-(define (even? n)
-  (= (remainder n 2) 0))
-
 (fast-multiply 1024 22)
