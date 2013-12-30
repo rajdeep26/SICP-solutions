@@ -7,4 +7,10 @@
       (+ a 
         (double (fast-multiply a (halve (- b 1))))))))
 
+(define (double n)
+  (* n 2))
+
+(define (halve n)
+  (/ n 2))
+
 (fast-multiply 1024 22)
